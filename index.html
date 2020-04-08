@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <section class="calc">
+
+        <header class="header__section">
+            <div class="header__calculator">
+                <span class="casio">CASIO</span>
+                <div class="header__black-block">
+                    <svg width="135" height="30">
+                        <rect rx="15" ry="15" width="135" height="30"
+                            style="fill:rgb(0,0,0);stroke-width:10;stroke:rgb(0,0,0)" />
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+        <form action="" class="form">
+            <input id="display" type="text" class="display" disabled value="0">
+            <button id="ce" class="buttons_ CE" type="reset" value="ce">CE</button>
+        </form>
+
+        <div class="buttons">
+            <button class="buttons__number num7" value="7">7</button>
+            <button class="buttons__number num8" value="8">8</button>
+            <button class="buttons__number num9" value="9">9</button>
+            <button class="operator divide" value="/">/</button>
+            <button class="buttons__number num4" value="4">4</button>
+            <button class="buttons__number num5" value="5">5</button>
+            <button class="buttons__number num6" value="6">6</button>
+            <button class="operator multiply" value="*">x</button>
+            <button class="buttons__number num1" value="1">1</button>
+            <button class="buttons__number num2" value="2">2</button>
+            <button class="buttons__number num3" value="3">3</button>
+            <button class="operator minus" value="-">-</button>
+            <button class="buttons__number num0" value="0">0</button>
+            <button id="decimal" class="decimal dot" value=".">.</button>
+            <button id="result" class="result operator" value="=">=</button>
+            <button class="operator plus" value="+">+</button>
+        </div>
+
+    </section>
+</body>
+
+</html>
